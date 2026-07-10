@@ -116,9 +116,7 @@ curl -X POST http://localhost:8000/api/v1/chat \
 
 | Variable | Default | Description |
 |---|---|---|
-| `APP_TITLE` | `Doctor Clinic AI Assistant` | API title shown in docs |
-| `APP_VERSION` | `1.0.0` | API version |
-| `DEBUG` | `False` | Enable debug mode |
+
 | `GROQ_API_KEY` | — | **Required.** Your Groq API key |
 | `GROQ_MODEL` | `openai/gpt-oss-120b` | Model to use |
 | `POSTGRES_URL` | — | **Required.** Full PostgreSQL connection URL |
